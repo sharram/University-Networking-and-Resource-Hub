@@ -1,0 +1,21 @@
+uni-resource-hub/
+├─ .gitignore
+├─ README.md
+├─ requirements.txt   # pip freeze > requirements.txt
+├─ schema.sql         # all DDL, triggers, procs, sample inserts
+├─ data/              # sample CSVs (optional)
+├─ streamlit_app/
+│  ├─ app.py
+│  ├─ pages/
+│  │  ├─ 1_dashboard.py
+│  │  ├─ 2_resources.py
+│  │  ├─ 3_students.py
+│  │  ├─ 4_alumni.py
+│  │  └─ 5_admin.py
+│  ├─ db.py           # SQLAlchemy engine & models
+│  ├─ models.py       # SQLAlchemy ORM models (optional)
+│  └─ utils.py
+└─ docs/
+   ├─ ER_diagram.png
+   ├─ Relational_schema.png
+   └─ Report.pdf
